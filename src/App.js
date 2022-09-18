@@ -1,8 +1,19 @@
-import EventPracitce from './components/EventPractice';
-import ValidationSample from './components/ValidationSample';
+import React, { Component } from 'react';
+import ScrollBox from './components/ScrollBox';
 
-const App = () => {
-  return <ValidationSample/>
+
+class App extends Component {
+  render() {
+    return(
+      <div>
+        <ScrollBox />
+      </div>
+    );
+  }
 }
+
+// const App = () => {
+//   return <ScrollBox/>
+// }
 
 export default App;
