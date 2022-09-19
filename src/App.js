@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import ScrollBox from './components/ScrollBox';
+import IterationSample from './components/IterationSample';
 
 
 class App extends Component {
   render() {
     return(
       <div>
-        <ScrollBox />
+        <IterationSample />
       </div>
     );
   }
