@@ -10,7 +10,12 @@ const Info = () => {
             name,
             nickname
         });
-    });
+        console.log(name);
+        return() => {
+            console.log('cleanup')
+            console.log(name)
+        }
+    }, [name]);
 
     const onChangeName = e => {
         setName(e.target.value);
