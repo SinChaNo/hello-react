@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Counter from './components/Counter';
 import Info from './components/Info';
 
 const App = () => { 
@@ -14,6 +15,7 @@ const App = () => {
       </button>
       <hr />
       {visible && <Info />}
+      <Counter />
     </div>
   );
 };
